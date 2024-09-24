@@ -1,3 +1,10 @@
+var word = 'Hello!';
+const world = 'Hello!';
+
 function hello() {
-  console.log('Hello!')
+  console.log(word)
+
+  world = 'Hi!';
+
+  console.log(world);
 }
