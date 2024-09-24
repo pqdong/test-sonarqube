@@ -1,18 +1,3 @@
-test = 'shit';
-
-var word = 'Hello!';
-const world = 'Hello!';
-
-hello(test, word);
-
-function hello(test) {
-  console.log(word)
-
-  world = 'Hi!';
-
-  console.log(world);
+function test() {
+  console.log('test');
 }
-
-var test = 'test';
-
-hello(test);
