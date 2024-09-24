@@ -1,9 +1,11 @@
+test = 'shit';
+
 var word = 'Hello!';
 const world = 'Hello!';
 
-hello();
+hello(test, word);
 
-function hello() {
+function hello(test) {
   console.log(word)
 
   world = 'Hi!';
